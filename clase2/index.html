@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Curso Front-end</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      <style>
+          div.container > .row:first-of-type{
+              color: white;
+              text-align : center;
+          }
+          div.container > .row:first-of-type div{
+              height: 70px;
+          }
+         
+          div.container > .row:first-of-type div:first-of-type{
+              background-color: #014C90;
+          }
+          div.container > .row:first-of-type div:nth-child(2){
+              background-color: #1CA9D4;
+              padding: 20px;
+          }
+          div.datos{
+              padding: 30px 0 30px 0;
+          }
+          div.footer{
+              margin-top : 40px;
+          }
+      </style>
+    
+  </head>
+  <body>
+	<div class="container"> 
+		<div class="row">
+			<div class="col-md-9">
+				<h1>BANCHILE INVERSIONES</h1>
+			</div>
+            <div class="col-md-3">
+                <p>Amanda Rivas</p>
+            </div>
+		</div>
+        <div class="row datos">
+            <div class="col-md-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Nombre</label>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Gonzalo Brujes</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Rut</label>
+                    </div>
+                    <div class="col-md-6">
+                        <p>17623117-3</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Subrut</label>
+                    </div>
+                    <div class="col-md-6">
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="operacion">Tipo de Operación</label>
+                    </div>
+                    <div class="col-md-6">
+                        <select id="operacion">
+                            <option>
+                                Aporte
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="cartera">Nombre Cartera</label>
+                    </div>
+                    <div class="col-md-6">
+                        <select id="cartera">
+                            <option>
+                                RV 20-40
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="numero">Número de Cuenta</label>
+                    </div>
+                    <div class="col-md-6">
+                        <select id="numero">
+                            <option>
+                                87
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="plan">Plan de inversión</label>
+                    </div>
+                    <div class="col-md-6">
+                        <select id="plan">
+                            <option>
+                                Normal
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="condicion">Condición Tributaria</label>
+                    </div>
+                    <div class="col-md-6">
+                        <select id="condicion">
+                            <option>
+                                57 BIS
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row panel">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <h4>Información del Producto</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                Permanencia Mínima
+                            </div>
+                            <div class="col-md-6">
+                                30 días
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                Valor Cuota
+                            </div>
+                            <div class="col-md-6">
+                                $4.211.895
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                Plazo de Rescate
+                            </div>
+                            <div class="col-md-6">
+                                Hasta 20 días
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        Monto
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" value="$300.000" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        Canal de Atención
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" value="Presencial" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        Adjuntar Información de Respaldo
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="col-md-1 col-md-offset-9">
+                <button class="btn btn-primary">Volver</button>
+            </div>
+            <div class="col-md-1">
+                <button class="btn btn-danger" disabled>Cancelar</button>
+            </div>
+            <div class="col-md-1">
+                <button class="btn btn-success">Ingresar</button>
+            </div>
+        </div>
+	</div>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

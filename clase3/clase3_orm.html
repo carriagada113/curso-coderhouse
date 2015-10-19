@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			div.container > .row:first-of-type{
+			  color: white;
+			  text-align : center;
+			}
+			div.container > .row:first-of-type div{
+			  height: 70px;
+			}
+
+			div.container > .row:first-of-type div:first-of-type{
+			  background-color: #014C90;
+			}
+			div.container > .row:first-of-type div:nth-child(2){
+			  background-color: #1CA9D4;
+			  padding: 20px;
+			}
+			div.datos{
+			  padding: 30px 0 30px 0;
+			}
+			div.footer{
+			  margin-top : 40px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">BANCHILE INVERSIONES</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bienvenido!<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Log In</a></li>
+								<li><a href="#">Log Out</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Mensajes</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-xs-4">
+					<div class="row">
+						<div class="col-md-4 col-xs-4">
+							<label>Nombre</label>
+						</div>
+						<div class="col-md-8 col-xs-8">
+							<label>Un Cliente de Nombre Largo</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-xs-4">
+							<label>Rut</label>
+						</div>
+						<div class="col-md-8 col-xs-8">
+							<label>88.888.888-9</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-xs-4">
+							<label>Subrut</label>
+						</div>
+						<div class="col-md-8 col-xs-8">
+							<label>0</label>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-8 col-xs-8">
+					<!--Aca va el elemento PASOS -->
+				</div>
+			</div>
+			<!-- Fila para los select y la info del fondo -->
+			<div class="row">
+				<div class="col-md-8 col-xs-8">
+					<div class="row">
+						<div class="col-md-3 col-xs-3">
+							<label>Tipo de Operación</label>
+						</div>
+						<div class="col-md-3 col-xs-3">
+							<select style="width:100%"></select>
+						</div>
+						<div class="col-md-3 col-xs-3">
+							<label>Número de Cuenta</label>
+						</div>
+						<div class="col-md-3 col-xs-3">
+							<select style="width:100%"></select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-xs-3">
+							<label>Nombre Cartera</label>
+						</div>
+						<div class="col-md-3 col-xs-3">
+							<select style="width:100%"></select>
+						</div>
+						<div class="col-md-3 col-xs-3">
+							<label>Plan de Inversión</label>
+						</div>
+						<div class="col-md-3 col-xs-3">
+							<select style="width:100%"></select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-md-offset-6 col-xs-3 col-xs-offset-6">
+							<label>Condición Tributaria</label>
+						</div>
+						<div class="col-md-3 col-xs-3">
+							<select style="width:100%"></select>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-4">
+					<div class="row">
+						<div class="col-md-12 col-xs-12">
+							<h4>Información Producto</h4>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-xs-8">
+							<label>Permanencia mínima</label>
+						</div>
+						<div class="col-md-4 col-xs-4">
+							<label>30 dias</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-xs-8">
+							<label>Valor Cuota</label>
+						</div>
+						<div class="col-md-4 col-xs-4">
+							<label>$9.224.215</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8 col-xs-8">
+							<label>Plazo de Rescate</label>
+						</div>
+						<div class="col-md-4 col-xs-4">
+							<label>Hasta 20 días</label>
+						</div>
+					</div>
+					<div class="row">
+					</div>
+				</div>
+			</div>
+			<!--Fila para monto, canal e info de respaldo -->
+			<div class="row">
+				<div class="col-md-4 col-xs-4 col-md-offset-8 col-xs-offset-8">
+					<div class="row">
+						<div class="col-md-6 col-xs-6">
+							<label>Monto</label>
+						</div>
+						<div class="col-md-6 col-xs-6">
+							<div class="input-group">
+								<span class="input-group-addon">
+									<span class="glyphicon glyphicon-usd"></span>
+								</span>
+								<input type="text" class="form-control" placeholder="Monto" aria-describedby="monto">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-xs-6">
+							<label>Canal de Atención</label>
+						</div>
+						<div class="col-md-6 col-xs-6">
+							<div class="input-group">
+								<span class="input-group-addon">
+									<span class="glyphicon glyphicon-user"></span>
+								</span>
+								<input type="text" class="form-control" placeholder="Canal" aria-describedby="canal">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-xs-6">
+							<label>Adjuntar información de respaldo</label>
+						</div>
+						<div class="col-md-6 col-xs-6">
+							<div class="input-group">
+								<span class="input-group-addon">
+									<span class="glyphicon glyphicon-open-file"></span>
+								</span>
+								<input type="text" class="form-control" placeholder="Adjuntar" aria-describedby="adjuntar">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Botones-->
+			<div class="row">
+				<div class="col-md-6 col-xs-6 col-md-offset-6 col-xs-offset-6">
+					<div class="row">
+						<div class="col-md-4 col-xs-4">
+							<button style="width:100%">Volver</button>
+						</div>
+						<div class="col-md-4 col-xs-4">
+							<button style="width:100%">Cancelar</button>
+						</div>
+						<div class="col-md-4 col-xs-4">
+							<button style="width:100%">Ingresar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
