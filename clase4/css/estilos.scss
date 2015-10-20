@@ -1,7 +1,62 @@
-$font-stack: Helvetica, sans-serif;
+/*$font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
 body {
   font: 100% $font-stack;
   color: $primary-color;
+}*/
+
+// $color-fondo: #55318F;
+// $color-claro: #C23131;
+// $color-fuente: white;
+//
+// div.container{
+//   background-color: $color-fondo;
+// }
+//
+// .navbar{
+//   background-color: $color-claro;
+// }
+//
+// p,h1,h2,h3,h4,a{
+//   color: $color-fuente;
+// }
+//
+// .container .navbar-default .navbar-brand{
+//   color: $color-fuente;
+// }
+
+
+$color-fuente : white;
+
+div{
+	.container{
+		> .row:first-of-type{
+			color: $color-fuente;
+  			text-align : center;
+  			div{
+  				height: 70px;
+  				:first-of-type{
+  					background-color: #014C90;
+  				}
+  				:nth-child(2){
+  					background-color: #1CA9D4;
+  					padding: 20px;
+  				}
+  			}
+		}
+	}
+	.datos{
+		padding: 30px 0 30px 0;
+	}
+	.footer{
+		margin-top : 40px;
+	}
 }
+
+.subtitulo{
+			font : {
+				family : Verdana;
+				size: 25px;
+			}
+		}

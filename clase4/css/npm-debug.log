@@ -1,0 +1,126 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'node-sass-cli' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/carriagada/Dev/proyectos/curso-coderhouse/clase4/css/package.json
+5 verbose readDependencies loading dependencies from /Users/carriagada/Dev/proyectos/curso-coderhouse/clase4/css/package.json
+6 silly cache add args [ 'node-sass-cli', null ]
+7 verbose cache add spec node-sass-cli
+8 silly cache add parsed spec { raw: 'node-sass-cli',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'node-sass-cli',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed node-sass-cli@*
+10 verbose addNamed "*" is a valid semver range for node-sass-cli
+11 silly addNameRange { name: 'node-sass-cli', range: '*', hasData: false }
+12 silly mapToRegistry name node-sass-cli
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/node-sass-cli
+16 verbose addNameRange registry:https://registry.npmjs.org/node-sass-cli not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/node-sass-cli
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 5:52:32 PM
+20 verbose request id c33ecc009ea8beab
+21 http request GET https://registry.npmjs.org/node-sass-cli
+22 http 200 https://registry.npmjs.org/node-sass-cli
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"5JFSS777WVL5ATM9FU821ZNZS"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '5099',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Mon, 19 Oct 2015 20:52:33 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-lax1430-LAX',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1445287953.343980,VS0,VE80',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving node-sass-cli to /Users/carriagada/.npm/registry.npmjs.org/node-sass-cli/.cache.json
+25 silly addNameRange number 2 { name: 'node-sass-cli', range: '*', hasData: true }
+26 silly addNameRange versions [ 'node-sass-cli', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4' ] ]
+27 silly addNamed node-sass-cli@0.0.4
+28 verbose addNamed "0.0.4" is a plain semver version for node-sass-cli
+29 warn deprecated node-sass-cli@0.0.4: use node-sass, it has great cli support!
+30 silly mapToRegistry name node-sass-cli
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/node-sass-cli
+34 verbose addRemoteTarball https://registry.npmjs.org/node-sass-cli/-/node-sass-cli-0.0.4.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-sass-cli/-/node-sass-cli-0.0.4.tgz',
+35 verbose addRemoteTarball   'dc33f7827d69e50e90272d9ceb6bf674b8ee925b' ]
+36 info retry fetch attempt 1 at 5:52:33 PM
+37 info attempt registry request try #1 at 5:52:33 PM
+38 http fetch GET https://registry.npmjs.org/node-sass-cli/-/node-sass-cli-0.0.4.tgz
+39 http fetch 200 https://registry.npmjs.org/node-sass-cli/-/node-sass-cli-0.0.4.tgz
+40 silly fetchAndShaCheck shasum dc33f7827d69e50e90272d9ceb6bf674b8ee925b
+41 verbose addTmpTarball /var/folders/s2/vrpvd1j12fs93jjs8xt3v9jc0000gn/T/npm-2757-009e35ba/registry.npmjs.org/node-sass-cli/-/node-sass-cli-0.0.4.tgz not in flight; adding
+42 verbose addTmpTarball already have metadata; skipping unpack for node-sass-cli@0.0.4
+43 silly cache afterAdd node-sass-cli@0.0.4
+44 verbose afterAdd /Users/carriagada/.npm/node-sass-cli/0.0.4/package/package.json not in flight; writing
+45 verbose afterAdd /Users/carriagada/.npm/node-sass-cli/0.0.4/package/package.json written
+46 silly install resolved [ { name: 'node-sass-cli',
+46 silly install resolved     version: '0.0.4',
+46 silly install resolved     description: 'Better CLI for node-sass, including watching',
+46 silly install resolved     main: 'lib/cli.js',
+46 silly install resolved     bin: { 'sass-cli': 'bin/sass-cli.js' },
+46 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+46 silly install resolved     repository:
+46 silly install resolved      { type: 'git',
+46 silly install resolved        url: 'https://github.com/arian/node-sass-cli.git' },
+46 silly install resolved     keywords: [ 'sass', 'cli', 'watch', 'node-sass', 'libsass' ],
+46 silly install resolved     author: { name: 'Arian Stolwijk' },
+46 silly install resolved     license: 'MIT',
+46 silly install resolved     bugs: { url: 'https://github.com/arian/node-sass-cli/issues' },
+46 silly install resolved     dependencies:
+46 silly install resolved      { optimist: '~0.6.0',
+46 silly install resolved        'node-sass': '~0.6.4',
+46 silly install resolved        colors: '~0.6.2',
+46 silly install resolved        watch: '~0.8.0' },
+46 silly install resolved     gitHead: '7f716816558a2a5d5c2305e075ceb7f12ed22fea',
+46 silly install resolved     homepage: 'https://github.com/arian/node-sass-cli',
+46 silly install resolved     _id: 'node-sass-cli@0.0.4',
+46 silly install resolved     _shasum: 'dc33f7827d69e50e90272d9ceb6bf674b8ee925b',
+46 silly install resolved     _from: 'node-sass-cli@*',
+46 silly install resolved     _npmVersion: '2.1.16',
+46 silly install resolved     _nodeVersion: '0.10.33',
+46 silly install resolved     _npmUser: { name: 'arian', email: 'stolwijk.arian@gmail.com' },
+46 silly install resolved     maintainers: [ [Object] ],
+46 silly install resolved     dist:
+46 silly install resolved      { shasum: 'dc33f7827d69e50e90272d9ceb6bf674b8ee925b',
+46 silly install resolved        tarball: 'http://registry.npmjs.org/node-sass-cli/-/node-sass-cli-0.0.4.tgz' },
+46 silly install resolved     deprecated: 'use node-sass, it has great cli support!',
+46 silly install resolved     directories: {},
+46 silly install resolved     _resolved: 'https://registry.npmjs.org/node-sass-cli/-/node-sass-cli-0.0.4.tgz' } ]
+47 info install node-sass-cli@0.0.4 into /Users/carriagada/Dev/proyectos/curso-coderhouse/clase4/css
+48 info installOne node-sass-cli@0.0.4
+49 verbose installOne of node-sass-cli to /Users/carriagada/Dev/proyectos/curso-coderhouse/clase4/css not in flight; installing
+50 warn locking Error: EACCES, open '/Users/carriagada/.npm/_locks/node-sass-cli-d8e8f087a8110465.lock'
+50 warn locking     at Error (native)
+50 warn locking  /Users/carriagada/.npm/_locks/node-sass-cli-d8e8f087a8110465.lock failed { [Error: EACCES, open '/Users/carriagada/.npm/_locks/node-sass-cli-d8e8f087a8110465.lock']
+50 warn locking   errno: -13,
+50 warn locking   code: 'EACCES',
+50 warn locking   path: '/Users/carriagada/.npm/_locks/node-sass-cli-d8e8f087a8110465.lock' }
+51 verbose stack Error: Attempt to unlock /Users/carriagada/Dev/proyectos/curso-coderhouse/clase4/css/node_modules/node-sass-cli, which hasn't been locked
+51 verbose stack     at unlock (/usr/local/lib/node_modules/npm/lib/utils/locker.js:66:11)
+51 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/install.js:1017:5)
+51 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:1021:20
+51 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/locker.js:40:9
+51 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:149:38)
+51 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:177:38
+51 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+52 verbose cwd /Users/carriagada/Dev/proyectos/curso-coderhouse/clase4/css
+53 error Darwin 14.5.0
+54 error argv "node" "/usr/local/bin/npm" "install" "node-sass-cli"
+55 error node v0.12.7
+56 error npm  v2.11.3
+57 error Attempt to unlock /Users/carriagada/Dev/proyectos/curso-coderhouse/clase4/css/node_modules/node-sass-cli, which hasn't been locked
+58 error If you need help, you may report this error at:
+58 error     <https://github.com/npm/npm/issues>
+59 verbose exit [ 1, true ]
